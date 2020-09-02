@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: pointList
+  name: pointlist
   labels:
-    app: pointList
+    app: pointlist
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: pointList
+      app: pointlist
   template:
     metadata:
       labels:
-        app: pointList
+        app: pointlist
     spec:
       containers:
-        - name: pointList
+        - name: pointlist
           image: 496278789073.dkr.ecr.ap-northeast-2.amazonaws.com/user10-pointlist:latest
           ports:
             - containerPort: 8080
