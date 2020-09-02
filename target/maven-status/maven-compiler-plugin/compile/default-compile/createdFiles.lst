@@ -1,11 +1,12 @@
-ohcna\PointListViewHandler.class
 ohcna\PointListApplication.class
 ohcna\PointList.class
 ohcna\PolicyHandler.class
 ohcna\AbstractEvent$1.class
 ohcna\RoomCreated.class
+ohcna\PointSaved.class
+ohcna\PointCreated.class
+ohcna\PointListViewHandler.class
 ohcna\PointListRepository.class
 ohcna\config\kafka\KafkaProcessor.class
-ohcna\PointCreated.class
 ohcna\AbstractEvent.class
 ohcna\PointDeleted.class

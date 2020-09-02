@@ -10,7 +10,7 @@ public class PointList {
         @Id
         @GeneratedValue(strategy=GenerationType.AUTO)
         private Long id;
-        private Long roomId;
+        //private Long roomId;
         private Integer point;
         private String roomName;
         private String roomFloor;
@@ -23,13 +23,9 @@ public class PointList {
         public void setId(Long id) {
             this.id = id;
         }
-        public Long getRoomId() {
-            return roomId;
-        }
 
-        public void setRoomId(Long roomId) {
-            this.roomId = roomId;
-        }
+
+
         public Integer getPoint() {
             return point;
         }
